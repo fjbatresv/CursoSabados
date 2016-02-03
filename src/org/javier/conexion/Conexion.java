@@ -45,7 +45,7 @@ public class Conexion {
         }
         try {
             //aqui creamos una conexion con los parametros necesarios
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost/kattari?user=root");
+            conexion = DriverManager.getConnection("jdbc:mysql://localhost/test?user=root");
             //si se obtiene la conexion, creamos un statement o un cursor de base de datos.
             statement = conexion.createStatement();
             System.out.println("Conexion realizada con exito!");
